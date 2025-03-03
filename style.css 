@@ -1,0 +1,67 @@
+/* Center the header */
+header {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
+
+/* Center the main image */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Style the navigation links */
+nav {
+    text-align: center;
+    background-color: grey;
+    padding: 10px;
+}
+
+nav a {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+/* Style the image caption */
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Style the text block */
+#featured-property p {
+    width: 800px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Make the #details section horizontal */
+#details {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+#details div {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
